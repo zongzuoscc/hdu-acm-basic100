@@ -36,7 +36,7 @@ struct Point
     int y;
 };
 
-// 计算多边形的面积
+// 使用叉积计算多边形面积
 double calculateArea(const vector<Point>& p) 
 {
     int n = p.size();

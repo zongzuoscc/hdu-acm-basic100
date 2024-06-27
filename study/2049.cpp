@@ -39,7 +39,7 @@ int main()
 	for (int i = 3; i < maxn; i++)
 	{
 		D[i] = (i - 1)*(D[i - 1] + D[i - 2]);///错排递推关系式
-		N[i] = N[i - 1] * i;//求n
+		N[i] = N[i - 1] * i;//求n,即所有可能的结果
 	}
 	int T, n, m;
 	cin >> T;

@@ -23,7 +23,7 @@ int main()
     int n, m;
     while (cin >> n >> m&&n<=50&&n>0&&m<=5&&m>0) 
     {
-        int scores[n][m];
+        double scores[n][m];
         double studentavg[n] = {0};
         double subjectavg[m] = {0};
 
